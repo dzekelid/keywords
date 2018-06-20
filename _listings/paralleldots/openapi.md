@@ -4,7 +4,7 @@ x-collection-name: ParallelDots
 x-complete: 1
 info:
   title: ParallelDots AI APIs Docs
-  description: our-powerful-deep-learning-powered-apis-can-comprehend-a-huge-amount-of-unstructured-text-and-visual-content-to-empower-your-products
+  description: our-powerful-deep-learning-powered-apis-can-comprehend-a-huge-amount-of-unstructured-text-and-visual-content-to-empower-your-products-
   version: 1.0.0
 host: apis.paralleldots.com
 basePath: /v3

@@ -1,13 +1,18 @@
 ---
 name: ParallelDots
 x-slug: paralleldots
-description: ""
+description: ParallelDots is one of the best applied AI research groups in the world.
+  We work with enterprises globally to tackle challenging business problems and create
+  the winners of tomorrow. We also provide AI consulting services to explore the what,
+  why, how and who about deploying AI in businesses. Try-out our cutting edge text
+  analysis APIs and join the community of 1,000+ global users. Contact us at contact@paralleldots.com
+  and tell us about the challenging business problems that you are facing.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paralleldots-logo.png
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Keywords
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/paralleldots/apis.md
 specificationVersion: "0.14"
 apis:
@@ -149,7 +154,13 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/paralleldots/multilang-keywords-post-openapi.md
 - name: ParallelDots
   x-api-slug: paralleldots
-  description: ""
+  description: ParallelDots is one of the best applied AI research groups in the world.
+    We work with enterprises globally to tackle challenging business problems and
+    create the winners of tomorrow. We also provide AI consulting services to explore
+    the what, why, how and who about deploying AI in businesses. Try-out our cutting
+    edge text analysis APIs and join the community of 1,000+ global users. Contact
+    us at contact@paralleldots.com and tell us about the challenging business problems
+    that you are facing.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paralleldots-logo.png
   humanURL: https://www.paralleldots.com/
   baseURL: https://apis.paralleldots.com//v3
