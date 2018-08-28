@@ -1,0 +1,204 @@
+{
+	"name": "Streadata.io API Gallery - Keywords",
+	"description": "This is a repository of keywords APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/keywords.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://keywords.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "GitHub",
+			"x-api-slug": "github",
+			"description": "GitHub brings together the worlds largest community of developers to discover, share, and build better software. From open source projects to private team repositories, were your all-in-one platform for collaborative development.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png",
+			"humanURL": "https://github.com",
+			"baseURL": "https:///",
+			"tags": "Keywords",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/github/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HubSpot",
+			"x-api-slug": "hubspot",
+			"description": "HubSpot is on a mission to replace the world&rsquo;s annoying, interruptive marketing with marketing that people love. HubSpot software is the most powerful, tightly integrated and comprehensive marketing software available, putting personalized inbound marketing into the hands of any business. Over 8,000 companies in 56 countries use our software to create lovable inbound marketing to attract, nurture and convert leads into an accelerating stream of new customers and revenue. HubSpot is also the developer of the popular website analysis tool, MarketingGrader.com, which has over 3 million users and grades upwards of 250,000 companies per month.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/213-hubspot-product-team.jpg",
+			"humanURL": "http://www.hubspot.com/",
+			"baseURL": "https:///",
+			"tags": "Keywords",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/hubspot/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AuthorityLabs",
+			"x-api-slug": "authoritylabs",
+			"description": "Track website rankings in Google, Yahoo!, and Bing daily. Our automated SERP tracking saves you time and helps you respond quickly to ranking changes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/694-authoritylabs.jpg",
+			"humanURL": "http://authoritylabs.com",
+			"baseURL": "https://api.authoritylabs.com//",
+			"tags": "Keywords",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/authoritylabs/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bitly",
+			"x-api-slug": "bitly",
+			"description": "Get the most out of your social and online marketing efforts. Own, understand and activate your best audience through the power of the link with Bitly Enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1503-bitly.jpg",
+			"humanURL": "http://bitly.com",
+			"baseURL": "https://api-ssl.bitly.com//v3",
+			"tags": "Keywords",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/bitly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Positionly",
+			"x-api-slug": "positionly",
+			"description": "Inbound Marketing Software by Positionly. Try the best user-friendly tools to track and improve SEO.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1662-positionly.jpg",
+			"humanURL": "https://positionly.com",
+			"baseURL": "https:///",
+			"tags": "Keywords",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/positionly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GlobalChange.gov",
+			"x-api-slug": "globalchange-gov",
+			"description": "The U.S. Global Change Research Program (USGCRP) was established by Presidential Initiative in 1989 and mandated by Congress in the Global Change Research Act (GCRA) of 1990 to &ldquo;assist the Nation and the world to understand, assess, predict, and respond to human-induced and natural processes of global change.&rdquo;",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/global-change-gov.png",
+			"humanURL": "http://globalchange.gov/",
+			"baseURL": "https://data.globalchange.gov//",
+			"tags": "Keywords",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/globalchange-gov/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Datumbox",
+			"x-api-slug": "datumbox",
+			"description": "Build quickly and easily Intelligent Applications by using the power of Machine Learning!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11516-datumbox.jpg",
+			"humanURL": "http://datumbox.com",
+			"baseURL": "https://api.datumbox.com/1.0/",
+			"tags": "Keywords",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/datumbox/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CallFire",
+			"x-api-slug": "callfire",
+			"description": "Grow your business with virtual phone numbers, IVR, voice broadcasting, mass text messaging services and power dialing. Try CallFire for FREE!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg",
+			"humanURL": "http://www.callfire.com",
+			"baseURL": "https://www.callfire.com//v2",
+			"tags": "Keywords",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/callfire/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ParallelDots",
+			"x-api-slug": "paralleldots",
+			"description": "ParallelDots is one of the best applied AI research groups in the world. We work with enterprises globally to tackle challenging business problems and create the winners of tomorrow. We also provide AI consulting services to explore the what, why, how and who about deploying AI in businesses. Try-out our cutting edge text analysis APIs and join the community of 1,000+ global users. Contact us at contact@paralleldots.com and tell us about the challenging business problems that you are facing.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paralleldots-logo.png",
+			"humanURL": "https://www.paralleldots.com/",
+			"baseURL": "https://apis.paralleldots.com//v3",
+			"tags": "Keywords",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/paralleldots/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Keywords",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/avaza/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Keywords",
+	"include": [
+		{
+			"name": "GitHub",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/github/apis.yaml"
+		},
+		{
+			"name": "HubSpot",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/hubspot/apis.yaml"
+		},
+		{
+			"name": "AuthorityLabs",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/authoritylabs/apis.yaml"
+		},
+		{
+			"name": "Bitly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/bitly/apis.yaml"
+		},
+		{
+			"name": "Positionly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/positionly/apis.yaml"
+		},
+		{
+			"name": "GlobalChange.gov",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/globalchange-gov/apis.yaml"
+		},
+		{
+			"name": "Datumbox",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/datumbox/apis.yaml"
+		},
+		{
+			"name": "CallFire",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/callfire/apis.yaml"
+		},
+		{
+			"name": "ParallelDots",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/paralleldots/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/avaza/apis.yaml"
+		}
+	]
+}

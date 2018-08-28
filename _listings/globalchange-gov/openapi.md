@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: GlobalChange.gov
 x-complete: 1
@@ -32,4 +31,20 @@ paths:
       - GCMD
       - Keywords
       - GCIS
----
+  /gcmd_keyword/{gcmd_keyword_identifier}:
+    get:
+      summary: Get a representation of a GCMD keyword.
+      description: Get JSON which represents the structure of a GCMD keyword.
+      operationId: get-json-which-represents-the-structure-of-a-gcmd-keyword
+      x-api-path-slug: gcmd-keywordgcmd-keyword-identifier-get
+      parameters:
+      - in: path
+        name: gcmd_keyword_identifier
+        description: gcmd_keyword_identifier description
+      responses:
+        200:
+          description: OK
+      tags:
+      - Representation
+      - GCMD
+      - Keyword

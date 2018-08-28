@@ -7,59 +7,81 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/694-author
 x-kinRank: "8"
 x-alexaRank: "297230"
 tags: Keywords
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/authoritylabs/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Authority Labs Partner API Delayed Queue
-  x-api-slug: authority-labs-partner-api
+- name: Authority Labs Partner API - Delayed Queue
+  x-api-slug: keywords-post
   description: Delayed Queue
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/694-authoritylabs.jpg
   humanURL: http://authoritylabs.com
-  baseURL: https://api.authoritylabs.com////keywords
-  tags: Keywords
+  baseURL: https://api.authoritylabs.com//
+  tags: SEO Rank checking service, SEO, Analysis, Analysis, Stack Network, SaaS, Technology,
+    internet, API Service Provider, Profiles, Relative Data, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/authoritylabs/keywords-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/authoritylabs/keywords-post-openapi.md
-- name: Authority Labs Partner API Priority Queue
-  x-api-slug: authority-labs-partner-api
+- name: Authority Labs Partner API - Priority Queue
+  x-api-slug: keywordspriority-post
   description: Priority Queue
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/694-authoritylabs.jpg
   humanURL: http://authoritylabs.com
-  baseURL: https://api.authoritylabs.com////keywords/priority
-  tags: Keywords,Priority
+  baseURL: https://api.authoritylabs.com//
+  tags: SEO Rank checking service, SEO, Analysis, Analysis, Stack Network, SaaS, Technology,
+    internet, API Service Provider, Profiles, Relative Data, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/authoritylabs/keywordspriority-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/authoritylabs/keywordspriority-post-openapi.md
-- name: Authority Labs Partner API Search Results
-  x-api-slug: authority-labs-partner-api
+- name: Authority Labs Partner API - Search Results
+  x-api-slug: keywordskeyword-get
   description: Search Results
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/694-authoritylabs.jpg
   humanURL: http://authoritylabs.com
-  baseURL: https://api.authoritylabs.com////keywords/{keyword}
-  tags: Keywords,Keyword
+  baseURL: https://api.authoritylabs.com//
+  tags: SEO Rank checking service, SEO, Analysis, Analysis, Stack Network, SaaS, Technology,
+    internet, API Service Provider, Profiles, Relative Data, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/authoritylabs/keywordskeyword-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/authoritylabs/keywordskeyword-get-openapi.md
-- name: Authority Labs Partner API
-  x-api-slug: authority-labs-partner-api
-  description: Track website rankings in Google, Yahoo!, and Bing daily. Our automated
-    SERP tracking saves you time and helps you respond quickly to ranking changes.
+- name: Authority Labs Partner API - Search Results
+  x-api-slug: keywordskeyword-get
+  description: Search Results
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/694-authoritylabs.jpg
   humanURL: http://authoritylabs.com
   baseURL: https://api.authoritylabs.com//
-  tags: Keywords
+  tags: SEO Rank checking service, SEO, Analysis, Analysis, Stack Network, SaaS, Technology,
+    internet, API Service Provider, Profiles, Relative Data, General Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/authoritylabs/keywordskeyword-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/authoritylabs/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/authoritylabs/keywordskeyword-get-openapi.md
+- name: Authority Labs Partner API - Search Results
+  x-api-slug: keywordskeyword-get
+  description: Search Results
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/694-authoritylabs.jpg
+  humanURL: http://authoritylabs.com
+  baseURL: https://api.authoritylabs.com//
+  tags: SEO Rank checking service, SEO, Analysis, Analysis, Stack Network, SaaS, Technology,
+    internet, API Service Provider, Profiles, Relative Data, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/authoritylabs/keywordskeyword-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/authoritylabs/keywordskeyword-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://authentiq.connect.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://authoritylabs.stack.network
 - type: x-base
   url: https://api.authoritylabs.com/
 - type: x-blog

@@ -82,6 +82,65 @@ paths:
       - Keywords
       - Leases
       - Keyword
+    put:
+      summary: Update a lease
+      description: Updates a keyword lease. Turns the autoRenew on/off.
+      operationId: updateKeywordLease
+      x-api-path-slug: keywordsleaseskeyword-put
+      parameters:
+      - in: body
+        name: body
+        description: A keyword lease object
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: keyword
+        description: To update a keyword lease
+      responses:
+        200:
+          description: OK
+      tags:
+      - Keywords
+      - Leases
+      - Keyword
+  /keywords/{keyword}/available:
+    get:
+      summary: Check for a specific keyword
+      description: Searches for the specific keyword to purchase on the CallFire platform.
+        Returns 'true' if keyword is available.
+      operationId: isKeywordAvailable
+      x-api-path-slug: keywordskeywordavailable-get
+      parameters:
+      - in: path
+        name: keyword
+        description: To specify a keyword to search for
+      responses:
+        200:
+          description: OK
+      tags:
+      - Keywords
+      - Keyword
+      - Available
+  /orders/keywords:
+    post:
+      summary: Purchase keywords
+      description: Purchase keywords. Send a list of available keywords into this
+        API to purchase them using CallFire credits. Make sure the account has enough
+        credits before trying to purchase the keywords
+      operationId: orderKeywords
+      x-api-path-slug: orderskeywords-post
+      parameters:
+      - in: body
+        name: body
+        description: Request object which contains a list of keywords to buy
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Orders
+      - Keywords
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -122,6 +122,26 @@ paths:
       - Keywords
       - Keyword
       - Available
+  /orders/keywords:
+    post:
+      summary: Purchase keywords
+      description: Purchase keywords. Send a list of available keywords into this
+        API to purchase them using CallFire credits. Make sure the account has enough
+        credits before trying to purchase the keywords
+      operationId: orderKeywords
+      x-api-path-slug: orderskeywords-post
+      parameters:
+      - in: body
+        name: body
+        description: Request object which contains a list of keywords to buy
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Orders
+      - Keywords
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

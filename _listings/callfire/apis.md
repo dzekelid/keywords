@@ -7,95 +7,174 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-call
 x-kinRank: "9"
 x-alexaRank: "129466"
 tags: Keywords
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/callfire/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Callfire Find keywords
-  x-api-slug: callfire
+- name: CallFire - Find keywords
+  x-api-slug: keywords-get
   description: Searches for all keywords available for purchase on the CallFire platform.
     If a keyword appears in the response, it is available for purchase. List the 'keywords'
     in a query parameter to search for multiple keywords (at least one keyword should
     be sent in request)
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
-  baseURL: https://www.callfire.com//v2//keywords
-  tags: Keywords
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/callfire/keywords-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/callfire/keywords-get-openapi.md
-- name: Callfire Find keyword leases
-  x-api-slug: callfire
+- name: CallFire - Find keyword leases
+  x-api-slug: keywordsleases-get
   description: Searches for all keywords owned by user. A keyword lease is the ownership
     information involving a keyword
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
-  baseURL: https://www.callfire.com//v2//keywords/leases
-  tags: Keywords,Leases
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/callfire/keywordsleases-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/callfire/keywordsleases-get-openapi.md
-- name: Callfire Find a specific lease
-  x-api-slug: callfire
+- name: CallFire - Find a specific lease
+  x-api-slug: keywordsleaseskeyword-get
   description: Searches for all keywords owned by user
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
-  baseURL: https://www.callfire.com//v2//keywords/leases/{keyword}
-  tags: Keywords,Leases,Keyword
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/callfire/keywordsleaseskeyword-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/callfire/keywordsleaseskeyword-get-openapi.md
-- name: Callfire Update a lease
-  x-api-slug: callfire
+- name: CallFire - Update a lease
+  x-api-slug: keywordsleaseskeyword-put
   description: Updates a keyword lease. Turns the autoRenew on/off.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
-  baseURL: https://www.callfire.com//v2//keywords/leases/{keyword}
-  tags: Keywords,Leases,Keyword
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/callfire/keywordsleaseskeyword-put-openapi.md
-- name: Callfire Check for a specific keyword
-  x-api-slug: callfire
+- name: CallFire - Check for a specific keyword
+  x-api-slug: keywordskeywordavailable-get
   description: Searches for the specific keyword to purchase on the CallFire platform.
     Returns 'true' if keyword is available.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
-  baseURL: https://www.callfire.com//v2//keywords/{keyword}/available
-  tags: Keywords,Keyword,Available
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/callfire/keywordskeywordavailable-get-openapi.md
-- name: Callfire Purchase keywords
-  x-api-slug: callfire
+- name: CallFire - Purchase keywords
+  x-api-slug: orderskeywords-post
   description: Purchase keywords. Send a list of available keywords into this API
     to purchase them using CallFire credits. Make sure the account has enough credits
     before trying to purchase the keywords
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
-  baseURL: https://www.callfire.com//v2//orders/keywords
-  tags: Orders,Keywords
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/callfire/orderskeywords-post-openapi.md
-- name: Callfire
-  x-api-slug: callfire
-  description: Grow your business with virtual phone numbers, IVR, voice broadcasting,
-    mass text messaging services and power dialing. Try CallFire for FREE!
+- name: CallFire - Find a specific lease
+  x-api-slug: keywordsleaseskeyword-get
+  description: Searches for all keywords owned by user
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
   baseURL: https://www.callfire.com//v2
-  tags: Keywords
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/callfire/keywordsleaseskeyword-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/callfire/keywordsleaseskeyword-get-openapi.md
+- name: CallFire - Update a lease
+  x-api-slug: keywordsleaseskeyword-put
+  description: Updates a keyword lease. Turns the autoRenew on/off.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/callfire/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/callfire/keywordsleaseskeyword-put-openapi.md
+- name: CallFire - Check for a specific keyword
+  x-api-slug: keywordskeywordavailable-get
+  description: Searches for the specific keyword to purchase on the CallFire platform.
+    Returns 'true' if keyword is available.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/callfire/keywordskeywordavailable-get-openapi.md
+- name: CallFire - Check for a specific keyword
+  x-api-slug: keywordskeywordavailable-get
+  description: Searches for the specific keyword to purchase on the CallFire platform.
+    Returns 'true' if keyword is available.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/callfire/keywordskeywordavailable-get-openapi.md
+- name: CallFire - Update a lease
+  x-api-slug: keywordsleaseskeyword-put
+  description: Updates a keyword lease. Turns the autoRenew on/off.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/callfire/keywordsleaseskeyword-put-openapi.md
+- name: CallFire - Find a specific lease
+  x-api-slug: keywordsleaseskeyword-get
+  description: Searches for all keywords owned by user
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/callfire/keywordsleaseskeyword-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keywords/master/_listings/callfire/keywordsleaseskeyword-get-openapi.md
 x-common:
 - type: x--net-sdk
   url: https://github.com/CallFire/CallFire-CSharp-SDK
@@ -103,6 +182,10 @@ x-common:
   url: https://answers.callfire.com/hc/en-us/sections/200166268-Billing
 - type: x-account-settings
   url: https://answers.callfire.com/hc/en-us/sections/200187056-Account-Settings
+- type: x-api-gallery
+  url: http://bureau.of.justice.statistics.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://callfire.stack.network
 - type: x-authentication
   url: https://www.callfire.com/api-documentation/how-do-i-enable-api-on-my-account
 - type: x-blog
